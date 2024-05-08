@@ -1,0 +1,4 @@
+from googletrans import Translator 
+translator=Translator()
+out=translator.translate("जीवन के संघर्ष से घबराने से नहीं, अपितु उसका सामना करने से सफलता मिलती है...हतो वा प्राप्यसि स्वर्गम्, जित्वा वा भोक्ष्यसे महिम्।तस्मात् उत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चय:",dest="hi")
+print(out)
